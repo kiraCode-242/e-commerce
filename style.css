@@ -1,0 +1,181 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica,sans-serif;
+	transition: .6s linear;
+
+}
+
+html{
+	font-size: 110.5%;
+	scroll-behavior: smooth;
+	scroll-padding-top:6rem;
+	overflow-x: hidden;
+}
+
+        /* Navbar */
+        .navbar {
+            background-color: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            font-size: 1.2rem;
+        }
+        .navbar .nav-link:hover {
+            color: #28a745;
+        }
+        .cart-icon {
+            font-size: 1.2rem;
+            color: #6c757d;
+            transition: color 0.3s;
+        }
+        .cart-icon:hover {
+            color: #28a745;
+        }
+
+section .out_1 {
+	margin: 30px;
+	padding: 20px;
+}
+
+.out_1 h1{
+	text-align: center;
+	font-weight: bold;
+	padding-bottom: 20px;
+	border-bottom: 2px dashed gray;
+}
+
+.out_1 p{
+	text-align: center;
+	padding: 3px;
+}
+
+.container{
+	width: 90%;
+	padding: 30px;
+	margin: 100px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.box{
+	width: 250px;
+	margin: 0 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    transition: 1s;
+}
+
+.box img{
+	display: block;
+	width: 100%;
+	border-radius: 5px;
+}
+
+.box:hover{
+	transform: scale(1.2);
+	z-index: 2;
+}
+
+.pied{
+	margin-top: 50px;
+	width: 100%;
+	background: #3E6C71;
+}
+
+.pied .groupe-1{
+	width: 100%;
+	max-width: 1200px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 45px 0px;
+}
+
+
+.pied .groupe-1 .bo figure{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.pied .groupe-1 .bo figure h1{
+	width: 250px;
+	color: #fff;
+}
+
+
+.pied .groupe-1 .bo h2{
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+
+
+.pied .groupe-1 .bo p{
+	color: #efefef;
+	margin-bottom: 10px;
+}
+
+.pied .groupe-1 .bo figure .red-social img{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+}
+
+
+.pied .groupe-2{
+      background: rgb(0, 0, 0);
+      padding: 15px 10px;
+      text-align: center;
+      color: #fff;
+}
+
+
+.pied .groupe-2 small{
+	font-size: 15px;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+  .like-btn {
+    cursor: pointer;
+    color: #ccc;
+}
+.like-btn.liked {
+	color: #ccc;
+}
+  
+  #chat-container {
+    display: flex;
+}
+
+#conversation-list {
+    width: 30%;
+    border-right: 1px solid #ccc;
+}
+
+#message-area {
+    width: 70%;
+}
+
+#messages {
+    height: 400px;
+    overflow-y: scroll;
+}
+.blockquote {
+    border-left: 3px solid #28a745;
+    padding-left: 15px;
+}
+.card-header {
+    background-color: #f8f9fa;
+}
